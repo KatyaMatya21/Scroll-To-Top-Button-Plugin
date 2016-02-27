@@ -1,0 +1,45 @@
+/* CSS */
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.up{
+  display: none;
+  position: fixed;
+  padding: 0 20px;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.up.up--position-left {
+  left: 0;
+}
+
+.up.up--position-right {
+  right: 0;
+}
+
+.up.up--position-top {
+  top: 0;
+}
+
+.up.up--position-bottom {
+  bottom: 0;
+}
+
+.up--img {
+  background: url(img/up.png) 0 0 no-repeat;
+  font-size: 0;
+  width: 50px;
+  padding: 0;
+}
